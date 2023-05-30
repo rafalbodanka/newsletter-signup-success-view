@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  
+  <script defer src="script.js"></script>
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>  
+</head>
+<body>
+  <div class="form_container">
+    <div class="content">
+      <div class="signup">
+        <p class="title">Stay updated!</p> 
+        <p class="description">Join 60,000+ product managers receiving monthly updates on:</p>
+        <div class="pros_list">
+          <div class="pros_list-item">
+            <div class="icon"><img src="assets/images/icon-list.svg"></div>
+            <div class="advantage">Product discovery and building what matters</div>
+          </div>
+          <div class="pros_list-item">
+            <div class="icon"><img src="assets/images/icon-list.svg"></div>
+            <div class="advantage">Measuring to ensure updates are a success</div>
+          </div>
+          <div class="pros_list-item">
+            <div class="icon"><img src="assets/images/icon-list.svg"></div>
+            <div class="advantage">And much more!</div>
+          </div>
+        </div> 
+        <div class="email_form-container">
+          <form class="email_form">
+            <label class="form_label">
+              <div class="email_label">Email address</div>
+              <div class="invalid_email_label">Valid email required</div>
+            </label>
+            <input type='text' class="form_input" placeholder="email@company.com">
+            <input type="submit" value="Subscribe to monthly newsletter" class="submit_btn">
+          </form>
+        </div>
+      </div>
+      <div class="image">
+          <img class="image-img"
+          src="assets/images/illustration-sign-up-desktop.svg"
+          alt="signup illustration">
+      </div>
+    </div>
+  </div>
+    <div class="success_container">
+      <div class="success_content">
+        <div class="success_icon"><img class="success_icon-img" src="assets/images/icon-list.svg"></div>
+        <p class="success_title">Thanks for subscribing!</p>
+        <p class="success_description">A confirmation email has been sent to <span class="user_subscription_email">ash@loremcompany.com</span>. Please open it and click the button inside to confirm your subscription.</p>
+        <div class="dismiss_msg_btn">Dismiss message</div>
+      </div>
+    </div>
+</body>
+</html>
